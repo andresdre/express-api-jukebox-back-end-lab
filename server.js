@@ -20,7 +20,7 @@ app.use(logger('dev'));
 
 app.use(cors({origin: 'http://localhost:5173'}))
 
-app.use('/pets', trackRouter);
+app.use('/tracks', trackRouter);
 
 app.listen(3000, () => {
   console.log('The express app is ready!');
